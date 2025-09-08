@@ -10,7 +10,7 @@ export const Newsletter = () => {
             <h3 className="download-text">Download CV</h3>
             </Col>
             <Col md={6} xl={7} className="d-flex justify-content-md-end justify-content-center">
-              <button className="vvd1" onClick={()=> window.open("https://drive.google.com/file/d/1DH7DYPEUyjrNNv4Mh55wI73ACEfSkuPQ/view?usp=sharing", "_blank")}><span>Download</span></button>
+              <button className="vvd1" onClick={()=> window.open("https://drive.google.com/file/d/1Vh0hK_go38lom57dPtHuXl_KRboZR0wB/view?usp=sharing", "_blank")}><span>Download</span></button>
             </Col>
           </Row>
         </div>
