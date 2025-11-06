@@ -429,8 +429,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
   max-height: 300px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   margin-bottom: 30px;
+  height: 260px;
+  width: 100%
 }
 .proj-imgbx::before {
   content: "";
