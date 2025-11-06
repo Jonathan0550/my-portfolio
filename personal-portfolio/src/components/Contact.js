@@ -20,7 +20,12 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
-                <button className="vvd" onClick={()=> window.open('mailto: jonathanaragao0550@gmail.com')}><span>Contact me</span></button>
+                <button className="vvd" onClick={()=> {
+                  const number = "5581983729270";
+                  const msg = encodeURIComponent("Olá, vi seu portfólio e quero falar com você!");
+                  const url = `https://wa.me/${number}?text=${msg}`;
+                  window.open(url, "_blank", "noopener,noreferrer");
+                } }><span>Contact me</span></button>
               </div>}
             </TrackVisibility>
           </Col>
