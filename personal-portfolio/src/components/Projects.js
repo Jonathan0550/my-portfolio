@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,6 +18,11 @@ export const Projects = () => {
       title: "8 Puzzle Game",
       description: "A simple Game",
       imgUrl: projImg2,
+    },
+    {
+      title: "Scalable Crud API",
+      description: "Made with Node.js, Express, TypeScript, PostgreSQL, Prisma ORM, and Docker.",
+      imgUrl: projImg3,
     },
   ];
 
